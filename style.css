@@ -5,7 +5,7 @@ caso você importe esse código, certifique-se de que não haverá conflitos com
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
+    background-color: #6394f0;
 }
             
 i{
@@ -32,9 +32,8 @@ que definem todo o estilo da parte superior do nosso card ex: algumas divs e tex
 
 #card{
     height: 300px;
-    border: 1px solid silver;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px silver;  
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.123);  
     margin-top: 150px;
     background-color: rgb(248, 248, 248);    
 }
@@ -42,7 +41,7 @@ que definem todo o estilo da parte superior do nosso card ex: algumas divs e tex
     #card .welcome{
         height: 50px;
         border-radius: 8px 8px 20px 0px;
-        background-color: rgb(63, 173, 236);
+        background-color: rgb(65, 65, 65);
      }
 
         #card .welcome .userimg{
@@ -96,7 +95,7 @@ o primeiro se refere ao ícone do email, o segundo ao ícone da senha (key)*/
 
     #card .buttons{
         height: 35px;
-        margin-top: 30px;
+        margin-top: 50px;
         background-color: transparent;     
     }
 
@@ -105,21 +104,9 @@ o primeiro se refere ao ícone do email, o segundo ao ícone da senha (key)*/
             border: none;
             outline: none;
             border-radius: 20px;
-            background-color: white;
+            background-color: rgb(61, 61, 61);
                 
             font-size: 14px;
             font-style: italic;
-            color: black;
+            color: rgb(255, 255, 255);
         }
-
-/*Animação do botão no site*/
-
-    @keyframes changecolor{
-        from {background-color: rgb(255, 255, 255);}
-        to {background-color: rgb(63, 173, 236);}
-    }
-
-    @keyframes unchangecolor{
-        from {background-color: rgb(63, 173, 236);}
-        to {background-color: rgb(255, 255, 255);}
-    }

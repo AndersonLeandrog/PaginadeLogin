@@ -1,110 +1,110 @@
-//fonte importada do google fonts
+/*fonte importada do google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-//regula uma margem e padding 0 para toda a página
+/*regula uma margem e padding 0 para toda a página*/
 
 * {
     margin: 0;
     padding: 0;
 }
 
-//elementos básicos da página, tenha cuidado ao incluir este css na sua página, como está definido abaixo
-//para que os links não possuam decorações e os botões tenham determinadas dimensões e cores, isso vai mudar também todo
-//o estilo dos links e botões da sua página, afim de evitar isso você pode criar classes específicas para determinados itens.
+/*elementos básicos da página, tenha cuidado ao incluir este css na sua página, como está definido abaixo
+para que os links não possuam decorações e os botões tenham determinadas dimensões e cores, isso vai mudar também todo
+o estilo dos links e botões da sua página, afim de evitar isso você pode criar classes específicas para determinados itens.*/
 
 a {
-    //estilo
+    /*estilo*/
     text-decoration: none;
 }
 
 body {
-    //fonte
+    /*fonte*/
     font-family:'Roboto', sans-serif;
     font-size: 14px;
     color: black;
     
-    //estilo
+    /*estilo*/
     background: whitesmoke;
 }
 
 button {
-    //dimensões
+    /*dimensões*/
     width: 60px;
     height: 30px;
     
-    //fonte
+    /*fonte*/
     font-weight: bold;
     
-    //estilo
+    /*estilo*/
     border: none;
     border-radius: 3px;
     background: silver;
 }
 
 #container {
-    //dimensões
+    /*dimensões*/
     width: 100%;
     height: 720px;
     
-    //estilo
-    /*background: orange;*/
+    /*estilo
+    background: orange;*/
     
-    //alinhamento
+    /*alinhamento*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
         #container .loginBox {
-            //dimensões
+            /*dimensões*/
             width: 215px;
             height: 260px;
             
-            //estilo
+            /*estilo*/
             border-radius: 3px;
             -webkit-box-shadow: -2px 2px 13px -5px #000000; 
             box-shadow: -2px 2px 13px -5px #000000;
             background: white;
             
-            //alinhamento
+            /*alinhamento*/
             margin-top: 40px;
         }
 
             #container .loginBox .loginTitle {
-                //fonte
+                /*fonte*/
                 font-size: 1.25em;
                 font-weight: bolder;
                 color: black;
                 
-                //alinhamento
+                /*alinhamento*/
                 text-align: center;
                 padding-top: 20px;
             }
 
             #container .loginBox .mailBox {
-                //dimensões
+                /*dimensões*/
                 width: 100%;
                 height: 30px;
                 
-                //estilo
-                /*background: red;*/
+                /*estilo
+                background: red;*/
                 
-                //alinhamento
+                /*alinhamento*/
                 display: flex;
                 justify-content: center;
                 margin-top: 25px;
             }
 
                 #container .loginBox .mailBox .mailIcon {
-                    //dimensões
+                    /*dimensões*/
                     width: 30px;
                     height: 30px;
                     
-                    //estilo
+                    /*estilo*/
                     border-radius: 30px;
                     background: silver;
                     
-                    //alinhamento
+                    /*alinhamento*/
                     float: left;
                     display: flex;
                     justify-content: center;
@@ -114,32 +114,32 @@ button {
                 }
 
                 #container .loginBox .mailBox input {
-                    //dimensões
+                    /*dimensões*/
                     width: 80%;
                     height: 28px;
                     
-                    //fonte
+                    /*fonte*/
                     font-size: 0.9em;
                     color: silver;
                     
-                    //estilo
+                    /*estilo*/
                     border: 1px solid silver;
                     border-radius: 3px;
                     background: white;
                     
-                    //alinhamento
+                    /*alinhamento*/
                     float: left;
                 }
 
             #container .loginBox .keyBox {
-                //dimensões
+                /*dimensões*/
                 width: 100%;
                 height: 30px;
                 
-                //estilo
-                /*background: red;*/
+                /*estilo
+                background: red;*/
                 
-                //alinhamento
+                /*alinhamento*/
                 display: flex;
                 justify-content: center;
                 
@@ -147,15 +147,15 @@ button {
             }
 
                 #container .loginBox .keyBox .keyIcon {
-                    //dimensões
+                    /*dimensões*/
                     width: 30px;
                     height: 30px;
                     
-                    //estilo
+                    /*estilo*/
                     border-radius: 20px;
                     background: silver;
                     
-                    //alinhamento
+                    /*alinhamento*/
                     float: left;
                     display: flex;
                     justify-content: center;
@@ -165,94 +165,94 @@ button {
                 }
 
                 #container .loginBox .keyBox input {
-                    //dimensões
+                    /*dimensões*/
                     width: 80%;
                     height: 28px;
                     
-                    //fonte
+                    /*fonte*/
                     font-size: 0.9em;
                     color: silver;
                     
-                    //estilo
+                    /*estilo*/
                     border: 1px solid silver;
                     border-radius: 3px;
                     background: white;
                     
-                    //alinhamento
+                    /*alinhamento*/
                     float: left;
                 }
             
             #container .loginBox .rememberBox {
-                //dimensões
+                /*dimensões*/
                 width: 100%;
                 height: 13px;
                 
-                //estilo
-                /*background: red;*/
+                /*estilo
+                background: red;*/
                 
-                //alinhamento
+                /*alinhamento*/
                 margin-top: 10px;
             }
 
             #container .loginBox .rememberBox #remember {
-                //alinhamento
+                /*alinhamento*/
                 float: left;
                 margin-left: 10px;
             }
 
                 label {
-                    //fonte
+                    /*fonte*/
                     font-size: 0.8em;
                     
-                    //alinhamento
+                    /*alinhamento*/
                     float: left;
                     margin-left: 5px;
                 }
             
             #container .loginBox .button {
-                //dimensões
+                /*dimensões*/
                 width: 100%;
                 height: 62px;
                 
-                //estilo
-                /*background: yellow;*/
+                /*estilo
+                background: yellow;*/
                 
-                //alinhamento
+                /*alinhamento*/
                 display: flex;
                 align-items: center;
                 justify-content: center;
             }
 
             #container .loginBox .pass {
-                //fonte
+                /*fonte*/
                 font-size: 0.9em;
                 font-style: italic;
                 color: #3d3d3d;
                 
-                //alinhamento
+                /*alinhamento*/
                 text-align: center;
                 padding-top: 5px;
             }
 
-//regula o tamanho da loginBox entre 280px a 768px
+/*regula o tamanho da loginBox entre 280px a 768px*/
     @media (min-width: 280px) {
         #container .loginBox {
-            //dimensões
+            /*dimensões*/
             width: 245px;
         }
     }
 
-//regula o tamanho da loginBox e title entre 768px +
+/*regula o tamanho da loginBox e title entre 768px +*/
     @media (min-width: 768px) {
 
         #container .loginBox {
-            //dimensões
+            /*dimensões*/
             width: 270px;
             height: 285px;
         }
 
         #container .loginBox .loginTitle {
-            //fonte
+            /*fonte*/
             font-size: 1.6em;
         }
     }

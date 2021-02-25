@@ -1,112 +1,184 @@
-/* Essa é a folha de estilo do projeto, aqui são definidos todos os estilos aplicados a página
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-abaixo estão todos os estilos aplicados a toda a página, como a body, i e a todos os inputs
-caso você importe esse código, certifique-se de que não haverá conflitos com o seu projeto*/
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #6394f0;
-}
-            
-i{
-    cursor: pointer;
-    border-radius: 50px;
-    margin-top: 6px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-input{
-    height: 35px;
-    background-color: #ffffff;
-                
-    border: none;
-    border-radius: 20px;
-    outline: none;
+a {
+    text-decoration: none;
+}
 
+body {
+
+    font-family:'Roboto', sans-serif;
     font-size: 14px;
-    font-style: italic;
-    color: rgb(128, 128, 128);
+    color: black;
+
+    background: whitesmoke;
 }
 
-/*Aqui estão dispostos todos os elementos da nossa 'card', como .welcome e .saudation bem como .userimg,
-que definem todo o estilo da parte superior do nosso card ex: algumas divs e textos e a imagem do usuário*/
+button {
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background: silver;
 
-#card{
-    height: 300px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.123);  
-    margin-top: 150px;
-    background-color: rgb(248, 248, 248);    
+    font-weight: bold;
 }
 
-    #card .welcome{
-        height: 50px;
-        border-radius: 8px 8px 20px 0px;
-        background-color: rgb(65, 65, 65);
-     }
+#container {
+    width: 100%;
+    height: 720px;
+    /*background: orange;*/
 
-        #card .welcome .userimg{
-            height: 30px;
-            margin: 10px 0px 0px 0px;
-            border-radius: 50px;
-            background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+        #container .loginBox {
+            width: 215px;
+            height: 260px;
+            margin-top: 40px;
+            border-radius: 3px;
+
+            -webkit-box-shadow: -2px 2px 13px -5px #000000; 
+            box-shadow: -2px 2px 13px -5px #000000;
+            background: white;
         }
 
-        #card .welcome .saudation{
-            height: 30px;
-            background-color: transparent;
-        }
+            #container .loginBox .loginTitle {
+                font-size: 1.25em;
+                font-weight: bolder;
+                color: black;
 
-            #card .welcome .saudation p{
-                font-size: 14px;
-                color: whitesmoke;
-                margin-top: 5px;
+                text-align: center;
+                padding-top: 20px;
             }
 
-/* Logo abaixo temos os elementos em que vão os ícones (background dos ícones), como icomail, icokey e email,
-o primeiro se refere ao ícone do email, o segundo ao ícone da senha (key)*/
+            #container .loginBox .mailBox {
+                width: 100%;
+                height: 30px;
+                margin-top: 25px;
+                /*background: red;*/
 
-    #card .icomail{
-        height: 30px;
-        margin-top: 42px;
-        border-radius: 20px;
-        background-color: #ffffff;
-    }
+                display: flex;
+                justify-content: center;
+            }
 
-    #card .icokey{
-        height: 30px;
-        margin-top: 27px;
-        border-radius: 20px;
-        background-color: #ffffff;
-    }
+                #container .loginBox .mailBox .mailIcon {
+                    float: left;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 30px;
+                    margin-right: 2px;
+                    background: silver;
 
-    #card .email{
-        height: 35px;
-        margin-top: 40px;
-        border-radius: 20px;
-        background-color: #e6e6e6;     
-    }
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
 
-    #card .keypass{
-        height: 35px;
-        margin-top: 25px;
-        border-radius: 20px;
-        background-color: #e6e6e6;     
-    }
+                #container .loginBox .mailBox input {
+                    float: left;
+                    width: 80%;
+                    height: 28px;
+                    border: 1px solid silver;
+                    border-radius: 3px;
+                    background: white;
 
-    #card .buttons{
-        height: 35px;
-        margin-top: 50px;
-        background-color: transparent;     
-    }
+                    font-size: 0.9em;
+                    color: silver;
+                }
 
-        #card .buttons button{
-            height: 35px;
-            border: none;
-            outline: none;
-            border-radius: 20px;
-            background-color: rgb(61, 61, 61);
-                
-            font-size: 14px;
-            font-style: italic;
-            color: rgb(255, 255, 255);
+            #container .loginBox .keyBox {
+                width: 100%;
+                height: 30px;
+                margin-top: 20px;
+                /*background: red;*/
+
+                display: flex;
+                justify-content: center;
+            }
+
+                #container .loginBox .keyBox .keyIcon {
+                    float: left;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 20px;
+                    margin-right: 2px;
+                    background: silver;
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                #container .loginBox .keyBox input {
+                    float: left;
+                    width: 80%;
+                    height: 28px;
+                    border: 1px solid silver;
+                    border-radius: 3px;
+                    background: white;
+
+                    font-size: 0.9em;
+                    color: silver;
+                }
+            
+            #container .loginBox .rememberBox {
+                width: 100%;
+                height: 13px;
+                margin-top: 10px;
+                /*background: red;*/
+            }
+
+            #container .loginBox .rememberBox #remember {
+                float: left;
+                margin-left: 10px;
+            }
+
+                label {
+                    float: left;
+                    margin-left: 5px;
+                    font-size: 0.8em;
+                }
+            
+            #container .loginBox .button {
+                width: 100%;
+                height: 62px;
+                /*background: yellow;*/
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #container .loginBox .pass {
+                text-align: center;
+                font-size: 0.9em;
+                font-style: italic;
+                color: #3d3d3d;
+
+                padding-top: 5px;
+            }
+
+    @media (min-width: 280px) {
+        #container .loginBox {
+            width: 245px;
         }
+    }
+
+    @media (min-width: 768px) {
+
+        #container .loginBox {
+            width: 270px;
+            height: 285px;
+        }
+
+        #container .loginBox .loginTitle {
+            font-size: 1.6em;
+        }
+    }

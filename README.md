@@ -4,7 +4,11 @@
 ### Versão original da página de login
 ![alt text](https://i.ibb.co/NLK7dLJ/img1.png)
 
-### Modifique como quiser
+### Modifique como você quiser (gold)
 ![alt text](https://i.ibb.co/Zh7YnLs/img2.png)
+
+### (blue)
 ![alt text](https://i.ibb.co/LNqVGTc/img3.png)
+
+### (green)
 ![alt text](https://i.ibb.co/ZcG268p/img4.png)

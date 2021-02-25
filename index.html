@@ -1,83 +1,59 @@
-<!doctype html>
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <meta charset="UTF-8">
+    <!--ref. ao arquivo css-->
+    <link rel="stylesheet" href="css/style.css">
 
-        <!--ref. ao Bootstrap-->    
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        
-        <!--ref. ao arquivo Javascript-->
-        <script type="text/javascript" src="script.js"></script>
+    <!--ref. ao arquivo js-->
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <title>Página de login - Modelo</title>
+
+</head>
+
+<body>
     
-        <!--ref. ao arquivo CSS-->
-        <link rel="stylesheet" type="text/css" href="style.css">
+    <div id="container">
 
-        <!--icones do site, fontawesome-->
-        <script src="https://kit.fontawesome.com/eca3ed8ee2.js" crossorigin="anonymous"></script>
+        <div class="loginBox">
+            <p class="loginTitle">Login</p>
 
-        <title>Página de Login | Anderson Leandro</title>
-
-    </head>
-    
-    <body>
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div id="card" class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-8">
-                    <div class="row">
-
-                        <div class="col-12 welcome">
-                            <div class="row">
-                                <div class="ml-2 col-1 userimg">
-                                    <div class="row justify-content-center">
-                                        <i class="fas fa-user" width="30px" height="30px"></i> <!--user img-->
-                                    </div>
-                                </div>
-                                <div class="mt-2 col-9 saudation">
-                                    <div class="row justify-content-end">
-                                        <p>Login now and enjoy all the content!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="ml-2 col-1 icomail">
-                            <div class="row justify-content-center">
-                                <i class="fas fa-envelope" width="20px" height="20px"></i> <!--mail img-->
-                            </div>
-                        </div>
-
-                        <div class="ml-2 col-10 email">
-                            <div class="row">
-                                <input type="text" class="col-12" value="yourmail@host.com">
-                            </div>
-                        </div>
-
-                        <div class="ml-2 col-1 icokey">
-                            <div class="row justify-content-center">
-                                <i class="fas fa-lock"></i> <!--keypass img-->
-                            </div>
-                        </div>
-
-                        <div class="ml-2 col-10 keypass">
-                            <div class="row">
-                                <input type="password" class="col-12" value="@mykey">
-                            </div>
-                        </div>
-
-                        <div class="ml-5 col-10 buttons">
-                            <div class="row">
-                                <button class="ml-4 col-6 signup">register now</button>
-                                <button class="ml-3 col-4 login">login</button>
-                            </div>
-                        </div>
-
-                    </div> 
-                </div> 
+            <div class="mailBox">
+                <div class="mailIcon">
+                    <img src="img/mail.svg" width="20px" height="30px" />
+                </div>
+                <input type="text" value=" insira o seu e-mail"/>
             </div>
+
+            <div class="keyBox">
+                <div class="keyIcon">
+                    <img src="img/key.svg" width="20px" height="30px" />
+                </div>
+                <input type="password" value=" senha"/>
+            </div>
+
+            <div class="rememberBox">
+                <input type="checkbox" id="remember">
+                <label for="remember">Lembrar a minha senha</label>
+            </div>
+
+            <div class="button">
+                 <button>Entrar</button>
+            </div>
+
+            <a href="link">
+                <p class="pass">Esqueceu a sua senha?</p>
+            </a>
+
         </div>
-    </body>
+
+    </div>
+
+</body>
 
 </html>
-       

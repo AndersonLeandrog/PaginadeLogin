@@ -24,7 +24,7 @@ body {
     color: black;
     
     /*estilo*/
-    background: whitesmoke;
+    background: orange;
 }
 
 button {
@@ -38,7 +38,7 @@ button {
     /*estilo*/
     border: none;
     border-radius: 3px;
-    background: silver;
+    background: orange;
 }
 
 #container {
@@ -102,7 +102,7 @@ button {
                     
                     /*estilo*/
                     border-radius: 30px;
-                    background: silver;
+                    background: orange;
                     
                     /*alinhamento*/
                     float: left;
@@ -120,7 +120,7 @@ button {
                     
                     /*fonte*/
                     font-size: 0.9em;
-                    color: silver;
+                    color: #3d3d3d;
                     
                     /*estilo*/
                     border: 1px solid silver;
@@ -129,6 +129,7 @@ button {
                     
                     /*alinhamento*/
                     float: left;
+                    padding-left: 2px;
                 }
 
             #container .loginBox .keyBox {
@@ -153,7 +154,7 @@ button {
                     
                     /*estilo*/
                     border-radius: 20px;
-                    background: silver;
+                    background: orange;
                     
                     /*alinhamento*/
                     float: left;
@@ -171,7 +172,7 @@ button {
                     
                     /*fonte*/
                     font-size: 0.9em;
-                    color: silver;
+                    color: #3d3d3d;
                     
                     /*estilo*/
                     border: 1px solid silver;
@@ -180,6 +181,7 @@ button {
                     
                     /*alinhamento*/
                     float: left;
+                    padding-left: 2px;
                 }
             
             #container .loginBox .rememberBox {

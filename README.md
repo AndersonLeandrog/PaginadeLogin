@@ -1,14 +1,20 @@
 ### Página de Login em HTML5, CSS3 e Javascript
-#### _Este projeto é uma página de login desenvolvida em HTML5, CSS3 e Javascript é um modelo de login minimalista, intuitivo, original e responsivo, pode ser baixado e modificado de acordo com o uso por qualquer desenvolvedor._
+#### _Este projeto é uma página de login desenvolvida em HTML5, CSS3 e Javascript <br>é um modelo de login minimalista, intuitivo, original e responsivo e de código aberto._
+![alt text](https://i.imgur.com/AntpDtt.png)
 
-##### Versão original da página de login
-![alt text](https://i.ibb.co/NLK7dLJ/img1.png)
+### Download
+##### _faça o download clicando em Code > Download_
 
-##### Modifique como você quiser (gold)
-![alt text](https://i.ibb.co/Zh7YnLs/img2.png)
+### Pré-requisitos
+##### _navegador com suporte a HTML5 e CSS3_
 
-##### (blue)
-![alt text](https://i.ibb.co/LNqVGTc/img3.png)
+### Tutorial
+##### _Baixe o arquivo e edite na sua IDE preferida_
 
-##### (green)
-![alt text](https://i.ibb.co/ZcG268p/img4.png)
+### Tecnologias Usadas
+##### _HTML5_
+##### _CSS3_
+##### _Javascript_
+
+### Autor
+##### Andersonleandrog

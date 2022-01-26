@@ -16,7 +16,7 @@
 ### Tecnologias Usadas
 ##### _HTML5_
 ##### _CSS3_
-##### _Javascript_
+##### _Javascript e jQuery_
 
 ### Autor
 ##### Andersonleandrog

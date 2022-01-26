@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-    
+    //teste do git here
     $('#termo').click(() => {
         const div = $('<div>').attr('style',`
             position: absolute;

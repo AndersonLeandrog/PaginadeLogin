@@ -98,13 +98,26 @@ body {
 
             .box-login .box {
                 width: 80%;
-                height: 248px;
+                height: 320px;
 
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
                 align-items: center;
             }
+
+                .box .social {
+                    width: 240px;
+                    height: 42px;
+
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                }
+
+                    .social img {
+                        cursor: pointer;
+                    }
 
             .box-login .box-account {
                 width: 80%;

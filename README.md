@@ -6,6 +6,7 @@
 
 ### Download
 ##### _faça o download clicando em Code > Download_
+##### _Se preferir, clone o repositorio atraves do git_
 
 ### Pré-requisitos
 ##### _navegador com suporte a HTML5 e CSS3_

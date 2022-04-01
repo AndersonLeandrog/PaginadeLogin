@@ -11,6 +11,7 @@
 
 p {
     cursor: pointer;
+    font-weight: 600;
     color: slateblue;
 }
 
@@ -31,7 +32,8 @@ input {
     border: none;
     border-bottom: 1px solid silver;
     outline: none;
-    color: #3d3d3d;
+    font-weight: 600;
+    color: #1c1c1c;
     padding-left: 3px;
 }
 
@@ -47,23 +49,20 @@ button {
 body {
     width: 100%;
     height: 100vh;
-    background-image: url('../img/fundo.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: #785eef;
     
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
     #container {
-        width: 906px;
+        width: 386px;
         height: 520px;
         border-radius: 10px;
-
         -webkit-box-shadow: 0px 0px 6px -1px #000000; 
         box-shadow: 0px 0px 6px -1px #000000;
+        background: #785eef;
 
         display: flex;
         justify-content: space-between;
@@ -77,7 +76,7 @@ body {
             border-bottom-left-radius: 10px;
             background: #785eef;
 
-            display: flex;
+            display: none;
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
@@ -86,8 +85,7 @@ body {
         #container .box-login {
             width: 386px;
             height: 520px;
-            border-top-right-radius: 10px;
-            border-bottom-right-radius: 10px;
+            border-radius: 10px;
             background: #fff;
 
             display: flex;
@@ -137,6 +135,7 @@ body {
         right: 15px;
         bottom: 15px;
         border-radius: 50%;
+        border: 1px solid #483D8B;
         background: slateblue;
 
         display: flex;
